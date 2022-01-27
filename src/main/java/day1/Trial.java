@@ -1,4 +1,4 @@
-package com.kiprono.play;
+package day1;
 
 public class Trial {
 	public static void main(String[] args) {

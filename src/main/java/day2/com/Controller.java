@@ -1,7 +1,7 @@
-package com;
+package day2.com;
 
-import model.StudentCompare;
-import model.StudentCompareTo;
+import day2.model.StudentCompare;
+import day2.model.StudentCompareTo;
 
 import java.util.*;
 

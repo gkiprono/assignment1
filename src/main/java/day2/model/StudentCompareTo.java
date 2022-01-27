@@ -1,4 +1,4 @@
-package model;
+package day2.model;
 
 /*
  * Author: Kiprono
