@@ -120,3 +120,25 @@ class Dog extends Animal {}
 - map, flatmap, distinct, limit
 - method reference
 - others;
+*solutions under streamapi folder*
+
+### Method Reference
+
+#### Reference to a static method.
+this method reference is like
+`Class::staticMethod`
+
+#### Reference to an instance method of a particular object
+Almost similar to above except we use an object of that class. ie
+```java
+Class object = new Class();
+object::getMax
+```
+
+#### Reference to an instance method of an arbitrary object of a particular type
+commonly `(object,args) -> obj.method(args)`
+
+#### Constructor method reference
+commonly using this conventions
+`ClassName::new`
+
