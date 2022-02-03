@@ -9,5 +9,5 @@
 - Assignment 3: [Assignment3](https://github.com/gkiprono/assignment3.git)
 - Assignment 4: [Assignment4](https://github.com/gkiprono/assignment-4.git)
 - Multithreading assigment:  [One lane bridge problem](https://github.com/gkiprono/one-lane-bridge-problem.git)
-- Stream API Practice: 
+- Stream API Practice: [Stream Api](https://github.com/gkiprono/stream-api.git )
 - 
