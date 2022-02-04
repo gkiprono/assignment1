@@ -44,7 +44,7 @@ from manages in-memory cached instead of relying entirely on slower disk-based d
 
 - ##### Differences between *view* and *material view*
 
-<p>Technically **view** of a table is a logical virtual copy of the table created by “select query” but the result is not 
+<p>Technically view of a table is a logical virtual copy of the table created by “select query” but the result is not 
 stored anywhere in the disk and every time we need to fire the query when we need data, so always we get updated or 
 latest data from original tables.</p>
 <p>On other hand Materialized views are also the logical virtual copy of data-driven by the select query but the result 
