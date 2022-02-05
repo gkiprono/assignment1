@@ -71,6 +71,7 @@ if there is no safe state it doesn't allow the request made by the process.
 - if the request made by the process is less than or equal to max need to that process
 - if the request made by the process is less than or equal to the freely available resources in the system
 
+## Homework 8.3
 ### Saga
 is a sequence of local transactions where each transaction updates data within a single service. The first transaction 
 in a saga is initiated by an external request corresponding to the system operation, and then each subsequent step is 
@@ -78,5 +79,5 @@ triggered by the completion of the previous one.
 
 - Events/Choreography: when there is no central coordination, each service produces and listen to the other service's 
     event and decides if an action should be taken or not.
-- Command/Orchestration: when coordinator service is responsible for centralizing the saga's decision making and sequencing
+- Command/Orchestration: when coordinator service is responsible for centralizing the saga's decision-making and sequencing
     business logic.
