@@ -34,7 +34,7 @@ public class DatabaseConnection {
 			NEW_DATABASE = formatURL();
 			
 		} catch (IOException e) {
-
+			e.printStackTrace();
 		}
 	}
 	// format url to capitalize first letter of database name
@@ -65,13 +65,11 @@ public class DatabaseConnection {
 				try {
 					conn = java.sql.DriverManager.getConnection(NEW_DATABASE, USERNAME, PASSWORD);
 				} catch (SQLException e) {
-					// TODO Auto-generated catch block
-
+					e.printStackTrace();
 				}
 			}
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
-
+			e.printStackTrace();
 		}
 		return conn;
 	}
@@ -93,13 +91,11 @@ public class DatabaseConnection {
 				try {
 					conn = java.sql.DriverManager.getConnection(URL, USERNAME, PASSWORD);
 				} catch (SQLException e) {
-					// TODO Auto-generated catch block
-
+					e.printStackTrace();
 				}
 			}
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
-
+			e.printStackTrace();
 		}
 		return conn;
 	}
