@@ -132,7 +132,7 @@ methods respectively.
 
 ```java
 class Solution{
-    public static void hbNativeSql(){
+    public static void hbNativeSql() throws HibernateException {
         Session session = HibernateUtil.getSessionFactory().openSession();
         session.beginTransaction();
         
