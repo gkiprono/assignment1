@@ -6,7 +6,22 @@
 
 ---
 
-### Hibernate Query Language
+## JPA
+<p>JPA stands for Java Persistence API. Java specification that gives some functionality and standard to ORM tools. 
+It is used to examine, control, and persist data between Java objects and relational databases. It is observed as a 
+standard technique for Object Relational Mapping. considered as a link between an object-oriented model and a relational 
+database system.
+</p>
+
+## Hibernate
+<p>It is a java framework, open-source, lightweight, and ORM (Object Relational Mapping) tool for the java language 
+which simplifies the buildout of Java application to interact with the database. It is used to save the Java objects in 
+the relational database system.
+</p>
+
+
+
+### Hibernate Query Languages
 <p>
 Similar to SQL but works with persistent objects and their properties. HQL is translated by Hibernate into conventional 
 SQL queries.
@@ -160,3 +175,18 @@ class Solution{
     }
 }
 ```
+
+## JPA vs Hibernate
+
+| JPA                                                                                                                                                                     | Hibernate                                                                                                                                                                      |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| JPA is described in javax.persistence package.                                                                                                                          | Hibernate is described in org.hibernate package.                                                                                                                               |
+| It is not an implementation. It is only a Java specification.                                                                                                           | Hibernate is an implementation of JPA. Hence, the common standard which is given by JPA is followed by Hibernate.                                                              |
+| It is a standard API that permits to perform database operations.                                                                                                       | It is used in mapping Java data types with SQL data types and database tables.                                                                                                 |
+| As an object-oriented query language, it uses Java Persistence Query Language (JPQL) to execute database operations.                                                    | As an object-oriented query language, it uses Hibernate Query Language (HQL) to execute database operations.                                                                   |
+| To interconnect with the entity manager factory for the persistence unit, it uses EntityManagerFactory interface. Thus, it gives an entity manager.                     | To create Session instances, it uses SessionFactory interface.                                                                                                                 |
+| o make, read, and remove actions for instances of mapped entity classes, it uses EntityManager interface. This interface interconnects with the persistence condition.  | To make, read, and remove actions for instances of mapped entity classes, it uses Session interface. It acts as a runtime interface between a Java application and Hibernate.  |
+
+<p><i>The major difference between Hibernate and JPA is that Hibernate is a framework while JPA is API specifications. 
+Hibernate is the implementation of all the JPA guidelines.</i>
+</p>
