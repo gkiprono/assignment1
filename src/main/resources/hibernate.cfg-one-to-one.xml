@@ -12,7 +12,7 @@
         <property name="show_sql">true</property>
         <property name="hbm2ddl.auto">update</property>
 
-        <mapping class="java_core.day2.one_to_one.entities.Employee"/>
-        <mapping class="java_core.day2.one_to_one.entities.Account"/>
+        <mapping class="java_core.day2_hibernate.one_to_one.entities.Employee"/>
+        <mapping class="java_core.day2_hibernate.one_to_one.entities.Account"/>
     </session-factory>
 </hibernate-configuration>
